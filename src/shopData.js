@@ -3,8 +3,8 @@
 export const shop = {
   name: 'AYRA Juice Bar',
   address: 'A9 Road, Pallai, Jaffna',
-  phone: '+94762613426',
-  whatsapp: '94762613426',
+  phone: '+94769400150',
+  whatsapp: '94769400150',
   mapsUrl: '',
   reviewUrl: '',
   facebook: '',
