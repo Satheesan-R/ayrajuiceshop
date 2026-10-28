@@ -5,7 +5,10 @@ export const shop = {
   address: 'A9 Road, Pallai, Jaffna',
   phone: '+94769400150',
   whatsapp: '94769400150',
-  mapsUrl: '',
+  mapsUrl: 'https://maps.app.goo.gl/9i9CEYnRwp2E6jrr5',
+  // This shared location is Pachchilapalli; replace with the shop pin when available.
+  mapEmbedUrl:
+    'https://maps.google.com/maps?q=Pachchilapalli&ftid=0x3afee5a225c0c03d:0xf8daef75ca488d6e&output=embed',
   reviewUrl: '',
   facebook: '',
   instagram: '',

@@ -182,12 +182,12 @@ export function ShopSections() {
               Get directions ↗
             </a>
             <p className="map-note">
-              Map shows the Pallai area. Exact shop pin to be added.
+              Map shows the shared Pachchilapalli location. Exact shop pin to be added.
             </p>
           </div>
           <iframe
-            title="Google Map of A9 Road, Pallai, Jaffna area"
-            src="https://maps.google.com/maps?q=A9%20Road%2C%20Pallai%2C%20Jaffna&output=embed"
+            title="Google Map of the shared Pachchilapalli location"
+            src={shop.mapEmbedUrl}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             allowFullScreen
