@@ -109,4 +109,11 @@ export const menuItems = [
   ),
 ]
 
-export const menuCategories = ['All', 'Coffee', ...menuGroups.map((group) => group.name)]
+export const menuCategories = [
+  'All',
+  'Fresh Juices',
+  'Coffee',
+  ...menuGroups
+    .filter((group) => group.name !== 'Fresh Juices')
+    .map((group) => group.name),
+]
