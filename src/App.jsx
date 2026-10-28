@@ -5,7 +5,6 @@ import {
   FooterDetails,
   FreshnessNote,
   HeroDetails,
-  MobileContact,
   ShopNavigation,
   ShopSections,
 } from './ShopSections'
@@ -211,7 +210,6 @@ export default function App() {
           </a>
         </div>
       </footer>
-      <MobileContact />
     </>
   )
 }

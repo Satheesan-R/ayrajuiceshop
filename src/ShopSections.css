@@ -355,7 +355,7 @@
   font-size: 11px;
 }
 
-/* Contact, social links, and page-bottom mobile contact actions. */
+/* Contact and social links. */
 .contact-section {
   border-top: 1px solid #d3b99220;
 }
@@ -422,10 +422,6 @@
   margin-left: auto;
   font-size: 20px;
 }
-.mobile-contact {
-  display: none;
-}
-
 @media (max-width: 900px) {
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -500,22 +496,6 @@
   }
   .location-layout iframe {
     height: 300px;
-  }
-  .mobile-contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    position: static;
-    padding: 12px 18px calc(12px + env(safe-area-inset-bottom));
-    background: #26180e;
-    box-shadow: 0 -3px 25px #0003;
-  }
-  .mobile-contact .button {
-    padding: 11px 12px;
-    font-size: 12px;
-  }
-  .mobile-contact .button:last-child {
-    background: #d7e8bd;
   }
   .footer-details {
     font-size: 10px;

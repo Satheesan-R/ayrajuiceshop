@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { menuCategories, menuItems, money, photo } from './favoritesData'
-import { FooterDetails, MobileContact } from './ShopSections'
+import { FooterDetails } from './ShopSections'
 
 export function FavoriteCards({ items, preview = false }) {
   return (
@@ -105,7 +105,6 @@ export function FavoritesPage() {
       <footer className="favorites-footer">
         <FooterDetails />
       </footer>
-      <MobileContact />
     </>
   )
 }

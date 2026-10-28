@@ -60,15 +60,6 @@ function ContactLink({ type, children, className = 'button' }) {
   )
 }
 
-export function MobileContact() {
-  return (
-    <div className="mobile-contact">
-      <ContactLink type="phone">Call the shop</ContactLink>
-      <ContactLink type="whatsapp">WhatsApp ↗</ContactLink>
-    </div>
-  )
-}
-
 export function FreshnessNote() {
   return (
     <div className="freshness-note">
